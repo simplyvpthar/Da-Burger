@@ -10,9 +10,9 @@ app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-var xphbs = require("express-handlebars");
+var exphbs = require("express-handlebars");
 
-app.engine("handlebars", xphbs({ defaultLayout: "main" }));
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 var routes = require("./controllers/burgersController.js");
