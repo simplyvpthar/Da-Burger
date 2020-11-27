@@ -9,7 +9,9 @@
     "mysql": "^2.18.1",
     "stack": "^0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "reinstall-node-modules": "^2.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
