@@ -18,45 +18,4 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 * **This assignment must be deployed.** * The links were submitted for both the deployed Heroku AND the Github Repository.
 
 
-#### Directory structure
-
-All the recommended files and directories of the app:
-
-```
-.
-├── config
-│   ├── connection.js
-│   └── orm.js
-│ 
-├── controllers
-│   └── burgers_controller.js
-│
-├── db
-│   ├── schema.sql
-│   └── seeds.sql
-│
-├── models
-│   └── burger.js
-│ 
-├── node_modules
-│ 
-├── package.json
-│
-├── public
-│   └── assets
-│       ├── css
-│       │   └── burger_style.css
-│       └── img
-│           └── burger.png
-│   
-│
-├── server.js
-│
-└── views
-    ├── index.handlebars
-    └── layouts
-        └── main.handlebars
-
-
-
 Link to Heroku: 
