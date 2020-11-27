@@ -17,8 +17,6 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 
 * Your app will store every burger in a database, whether devoured or not.
 
-(../assets/images/da burger app.png)
-
 * **This assignment must be deployed.** * The links were submitted for both the deployed Heroku AND the Github Repository.
 
 
