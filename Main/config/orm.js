@@ -1,5 +1,6 @@
 
 
+
 var connection = require("./connection.js");
 
 function printQuestionMarks(num) {
@@ -13,7 +14,7 @@ function printQuestionMarks(num) {
 }
 
 function objToSql(ob) {
- 
+
   var arr = [];
 
   for (var key in ob) {
@@ -33,7 +34,7 @@ var orm = {
       cb(result);
     });
   },
- 
+
   create: function(table, cols, vals, cb) {
     var queryString = "INSERT INTO " + table;
 
@@ -53,7 +54,7 @@ var orm = {
       cb(result);
     });
   },
-
+ 
   update: function(table, objColVals, condition, cb) {
     var queryString = "UPDATE " + table;
 

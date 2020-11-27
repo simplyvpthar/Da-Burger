@@ -9,9 +9,9 @@ router.get("/", function(req, res) {
 });
 
 router.get("/burgers", function(req, res) {
-
+ 
   burger.all(function(burgerData) {
-
+ 
     res.render("index", { burger_data: burgerData });
   });
 });
@@ -25,7 +25,6 @@ router.post("/burgers/create", function(req, res) {
     res.redirect("/");
   });
 });
-
 
 router.put("/burgers/:id", function(req, res) {
   burger.update(req.params.id, function(result) {
